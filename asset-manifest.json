@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/trovailre/static/css/main.5700830b.chunk.css",
-    "main.js": "/trovailre/static/js/main.c3081b9e.chunk.js",
-    "main.js.map": "/trovailre/static/js/main.c3081b9e.chunk.js.map",
+    "main.css": "/trovailre/static/css/main.78a1b1cd.chunk.css",
+    "main.js": "/trovailre/static/js/main.657e9bbd.chunk.js",
+    "main.js.map": "/trovailre/static/js/main.657e9bbd.chunk.js.map",
     "runtime-main.js": "/trovailre/static/js/runtime-main.ffd65b69.js",
     "runtime-main.js.map": "/trovailre/static/js/runtime-main.ffd65b69.js.map",
-    "static/js/2.0e34eba9.chunk.js": "/trovailre/static/js/2.0e34eba9.chunk.js",
-    "static/js/2.0e34eba9.chunk.js.map": "/trovailre/static/js/2.0e34eba9.chunk.js.map",
+    "static/js/2.ecf64d2f.chunk.js": "/trovailre/static/js/2.ecf64d2f.chunk.js",
+    "static/js/2.ecf64d2f.chunk.js.map": "/trovailre/static/js/2.ecf64d2f.chunk.js.map",
     "index.html": "/trovailre/index.html",
-    "static/css/main.5700830b.chunk.css.map": "/trovailre/static/css/main.5700830b.chunk.css.map",
-    "static/js/2.0e34eba9.chunk.js.LICENSE.txt": "/trovailre/static/js/2.0e34eba9.chunk.js.LICENSE.txt",
+    "static/css/main.78a1b1cd.chunk.css.map": "/trovailre/static/css/main.78a1b1cd.chunk.css.map",
+    "static/js/2.ecf64d2f.chunk.js.LICENSE.txt": "/trovailre/static/js/2.ecf64d2f.chunk.js.LICENSE.txt",
     "static/media/index.css": "/trovailre/static/media/background.70ad2779.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ffd65b69.js",
-    "static/js/2.0e34eba9.chunk.js",
-    "static/css/main.5700830b.chunk.css",
-    "static/js/main.c3081b9e.chunk.js"
+    "static/js/2.ecf64d2f.chunk.js",
+    "static/css/main.78a1b1cd.chunk.css",
+    "static/js/main.657e9bbd.chunk.js"
   ]
 }
