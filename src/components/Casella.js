@@ -8,7 +8,7 @@ const Casella = ({ indexCasella, number, color, cambiaNumero, cambiaColore, sele
       var numero = carteDisponibili[i];
 
       arrayOfMiniNumeri.push(
-        <div className="miniNumero unselectable" key={i} onClick={cambiaNumero.bind(this, indexCasella, numero)}>
+        <div className="miniNumero" key={i} onClick={cambiaNumero.bind(this, indexCasella, numero)}>
           <span>{numero}</span>
         </div>
       );
@@ -32,13 +32,8 @@ const Casella = ({ indexCasella, number, color, cambiaNumero, cambiaColore, sele
     }
     return arrayOfMiniColori;
   }
-  /*
-          border-color: black,
-          border-style: solid,
-          border-width: 1px */
-
   return (
-    <div className="containerCasellaColoreNumero">
+    <div className="containerCasellaColoreNumero unselectable">
       <div className="containerCasellaNumero">
         <div
           style={{
@@ -47,7 +42,7 @@ const Casella = ({ indexCasella, number, color, cambiaNumero, cambiaColore, sele
             borderStyle: "solid",
             borderWidth: selected === true ? "3px" : "1px",
           }}
-          className="casella"
+          className="unselectable casella"
           onClick={cambiaSelected.bind(this, indexCasella)}
         >
           <span>{number === "0" ? null : number}</span>
