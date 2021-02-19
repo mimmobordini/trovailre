@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  display: block;
+  background-image: url(.\\background.png);
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  margin: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.rightMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
