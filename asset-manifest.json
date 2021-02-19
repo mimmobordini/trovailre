@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/trovailre/static/css/main.78a1b1cd.chunk.css",
-    "main.js": "/trovailre/static/js/main.93e34c05.chunk.js",
-    "main.js.map": "/trovailre/static/js/main.93e34c05.chunk.js.map",
+    "main.js": "/trovailre/static/js/main.a34f8e5c.chunk.js",
+    "main.js.map": "/trovailre/static/js/main.a34f8e5c.chunk.js.map",
     "runtime-main.js": "/trovailre/static/js/runtime-main.ffd65b69.js",
     "runtime-main.js.map": "/trovailre/static/js/runtime-main.ffd65b69.js.map",
     "static/js/2.ecf64d2f.chunk.js": "/trovailre/static/js/2.ecf64d2f.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.ffd65b69.js",
     "static/js/2.ecf64d2f.chunk.js",
     "static/css/main.78a1b1cd.chunk.css",
-    "static/js/main.93e34c05.chunk.js"
+    "static/js/main.a34f8e5c.chunk.js"
   ]
 }
