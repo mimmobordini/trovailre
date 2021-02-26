@@ -4,8 +4,21 @@ import { useState } from "react";
 
 const creaGrid = function () {
   var griglia = [];
+  var counter = 0;
+  var letters = ["A", "B", "C", "D", "E"];
+  var letter = 0;
   for (var i = 0; i < 25; i++) {
-    griglia.push({ number: "0", color: "white", selected: false });
+    counter++;
+    griglia.push({
+      number: "0",
+      color: "white",
+      selected: false,
+      positionName: `${letters[letter]}${counter.toString()}`,
+    });
+    if (counter == 5) {
+      counter = 0;
+      letter++;
+    }
   }
   return griglia;
 };
@@ -83,6 +96,7 @@ const Board = ({ setnumberStats, setcolorStats }) => {
               number={element.number}
               color={element.color}
               selected={element.selected}
+              positionName={element.positionName}
               indexCasella={index}
               cambiaNumero={cambiaNumero}
               cambiaColore={cambiaColore}

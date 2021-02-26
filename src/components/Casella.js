@@ -1,7 +1,16 @@
 const coloriDisponibili = ["white", "green", "orange", "yellow", "purple", "blue", "red"];
 const carteDisponibili = ["", "1", "2", "3", "4", "5", "K"];
 
-const Casella = ({ indexCasella, number, color, cambiaNumero, cambiaColore, selected, cambiaSelected }) => {
+const Casella = ({
+  indexCasella,
+  number,
+  color,
+  cambiaNumero,
+  cambiaColore,
+  selected,
+  cambiaSelected,
+  positionName,
+}) => {
   function createMiniNumeri() {
     var arrayOfMiniNumeri = [];
     for (var i = 0; i < carteDisponibili.length; i++) {
@@ -33,26 +42,28 @@ const Casella = ({ indexCasella, number, color, cambiaNumero, cambiaColore, sele
     return arrayOfMiniColori;
   }
   return (
-    <div className="containerCasellaColoreNumero unselectable">
-      <div className="containerCasellaNumero">
-        <div
-          style={{
-            backgroundColor: color,
-            borderColor: "black",
-            borderStyle: "solid",
-            borderWidth: selected === true ? "3px" : "1px",
-          }}
-          className="unselectable casella"
-          onClick={cambiaSelected.bind(this, indexCasella)}
-        >
-          <span>{number === "0" ? null : number}</span>
+    <div className="containerCasellaMain unselectable">
+      <div className="containerCasellaColoreNumero">
+        <div className="containerCasellaNumero">
+          <div
+            style={{
+              backgroundColor: color,
+              borderColor: "black",
+              borderStyle: "solid",
+              borderWidth: selected === true ? "3px" : "1px",
+            }}
+            className="unselectable casella"
+            onClick={cambiaSelected.bind(this, indexCasella)}
+          >
+            <span>{number === "0" ? null : number}</span>
+            <span className="positionCasella">{positionName}</span>
+          </div>
+          <div className="containerMiniNumeri">{createMiniNumeri()}</div>
+
+          {/*<div className="containerSelected" style={{ backgroundColor: selected === true ? "green" : null }} />*/}
         </div>
-        <div className="containerMiniNumeri">{createMiniNumeri()}</div>
-
-        {/*<div className="containerSelected" style={{ backgroundColor: selected === true ? "green" : null }} />*/}
+        <div className="containerMiniColori"> {createMiniColori()}</div>
       </div>
-
-      <div className="containerMiniColori"> {createMiniColori()}</div>
     </div>
   );
 };
