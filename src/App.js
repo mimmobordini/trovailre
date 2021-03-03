@@ -12,12 +12,8 @@ function App() {
     <div className="boardAndSchema">
       <Board setnumberStats={setnumberStats} setcolorStats={setcolorStats} />
 
-      <div className="rightMenu">
-        <div className="schemaAndPunteggi">
-          <Schema numberStats={numberStats} colorStats={colorStats} />
-          <Punteggi />
-        </div>
-      </div>
+      <Schema numberStats={numberStats} colorStats={colorStats} />
+      <Punteggi />
     </div>
   );
 }
