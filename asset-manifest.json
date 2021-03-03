@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/trovailre/static/css/main.cfea6afd.chunk.css",
-    "main.js": "/trovailre/static/js/main.58e43427.chunk.js",
-    "main.js.map": "/trovailre/static/js/main.58e43427.chunk.js.map",
+    "main.css": "/trovailre/static/css/main.904a63b1.chunk.css",
+    "main.js": "/trovailre/static/js/main.3b95c044.chunk.js",
+    "main.js.map": "/trovailre/static/js/main.3b95c044.chunk.js.map",
     "runtime-main.js": "/trovailre/static/js/runtime-main.ffd65b69.js",
     "runtime-main.js.map": "/trovailre/static/js/runtime-main.ffd65b69.js.map",
     "static/js/2.ecf64d2f.chunk.js": "/trovailre/static/js/2.ecf64d2f.chunk.js",
     "static/js/2.ecf64d2f.chunk.js.map": "/trovailre/static/js/2.ecf64d2f.chunk.js.map",
     "index.html": "/trovailre/index.html",
-    "static/css/main.cfea6afd.chunk.css.map": "/trovailre/static/css/main.cfea6afd.chunk.css.map",
+    "static/css/main.904a63b1.chunk.css.map": "/trovailre/static/css/main.904a63b1.chunk.css.map",
     "static/js/2.ecf64d2f.chunk.js.LICENSE.txt": "/trovailre/static/js/2.ecf64d2f.chunk.js.LICENSE.txt",
+    "static/media/5.386e02f2.png": "/trovailre/static/media/5.386e02f2.png",
+    "static/media/K.92ca6422.png": "/trovailre/static/media/K.92ca6422.png",
     "static/media/index.css": "/trovailre/static/media/background.70ad2779.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ffd65b69.js",
     "static/js/2.ecf64d2f.chunk.js",
-    "static/css/main.cfea6afd.chunk.css",
-    "static/js/main.58e43427.chunk.js"
+    "static/css/main.904a63b1.chunk.css",
+    "static/js/main.3b95c044.chunk.js"
   ]
 }
