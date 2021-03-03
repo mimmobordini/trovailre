@@ -26,8 +26,6 @@ const Punteggi = () => {
           <li>Bottino Reale Oro se il punteggio è superiore a 550</li>
         </ul>
       </div>
-
-      <input type="button" className="button" value="Reset" onClick={() => window.location.reload(false)} />
     </div>
   );
 };

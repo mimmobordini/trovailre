@@ -43,6 +43,8 @@ const Schema = ({ numberStats, colorStats }) => {
           })}
         </tbody>
       </table>
+
+      <input type="button" className="button" value="Reset" onClick={() => window.location.reload(false)} />
     </div>
   );
 };
