@@ -5,6 +5,23 @@ body {
   /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.boardAndSchema {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.rightMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.schemaAndPunteggi {
+  display: flex;
+  flex-direction: row;
+}
+
 .button {
   background-color: #4caf50;
   border: none;
@@ -14,11 +31,9 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
 }
 
-.rightMenu {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+td {
+  font-size: xx-large;
 }

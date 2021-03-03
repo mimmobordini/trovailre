@@ -1,45 +1,46 @@
+import uno from "../1.png";
+import due from "../2.png";
+import tre from "../3.png";
+import quattro from "../4.png";
+import cinque from "../5.png";
+import kappa from "../K.png";
+
 const Schema = ({ numberStats, colorStats }) => {
+  var elementList = [
+    { quantita: 7, source: uno, trovate: numberStats["1"] },
+    { quantita: 4, source: due, trovate: numberStats["2"] },
+    { quantita: 5, source: tre, trovate: numberStats["3"] },
+    { quantita: 5, source: quattro, trovate: numberStats["4"] },
+    { quantita: 3, source: cinque, trovate: numberStats["5"] },
+    { quantita: 1, source: kappa, trovate: numberStats["K"] },
+  ];
+
   return (
-    <div className="schemaContainer unselectable">
+    <div className="unselectable">
       <table>
         <thead>
           <tr>
-            <th>CARTA</th>
-            <th>QUANTITA</th>
+            <th></th>
+            <th></th>
             <th>SEGNATE</th>
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>1</td>
-            <td>7</td>
-            <td>{numberStats["1"]}</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>4</td>
-            <td>{numberStats["2"]}</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>5</td>
-            <td>{numberStats["3"]}</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>{numberStats["4"]}</td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>3</td>
-            <td>{numberStats["5"]}</td>
-          </tr>
-          <tr>
-            <td>K</td>
-            <td>1</td>
-            <td>{numberStats["K"]}</td>
-          </tr>
+          {elementList.map((element, index) => {
+            return (
+              <tr>
+                <td>
+                  <span>{element.quantita}x</span>
+                </td>
+                <td>
+                  <img src={element.source} />
+                </td>
+                <td>
+                  <span>{element.trovate}</span>
+                </td>
+              </tr>
+            );
+          })}
         </tbody>
       </table>
     </div>

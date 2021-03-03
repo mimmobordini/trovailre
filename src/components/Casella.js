@@ -50,17 +50,21 @@ const Casella = ({
               backgroundColor: color,
               borderColor: "black",
               borderStyle: "solid",
-              borderWidth: selected === true ? "3px" : "1px",
+              borderWidth: "1px",
+              //borderWidth: selected === true ? "5px" : "1px",
             }}
             className="unselectable casella"
             onClick={cambiaSelected.bind(this, indexCasella)}
           >
             <span>{number === "0" ? null : number}</span>
             <span className="positionCasella">{positionName}</span>
+            <div
+              style={{ borderBottom: selected === true ? "55px solid rgba(0, 0, 0, 0.5)" : undefined }}
+              className="positionSelected"
+            />
           </div>
-          <div className="containerMiniNumeri">{createMiniNumeri()}</div>
 
-          {/*<div className="containerSelected" style={{ backgroundColor: selected === true ? "green" : null }} />*/}
+          <div className="containerMiniNumeri">{createMiniNumeri()}</div>
         </div>
         <div className="containerMiniColori"> {createMiniColori()}</div>
       </div>

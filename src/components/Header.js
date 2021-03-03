@@ -1,10 +1,7 @@
-import Rules from "./Rules";
-
 const Header = () => {
   return (
-    <header className="containerHeader unselectable">
+    <header className="unselectable">
       <h1>TROVA IL RE</h1>
-      <Rules />
     </header>
   );
 };

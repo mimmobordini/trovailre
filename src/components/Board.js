@@ -87,7 +87,7 @@ const Board = ({ setnumberStats, setcolorStats }) => {
   };
 
   return (
-    <div>
+    <div className="boardAndTavolozza">
       <div className="board">
         {grid.map((element, index) => {
           return (
